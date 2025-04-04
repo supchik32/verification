@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;  
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.main{
+    text-indent: 100px;
+    margin-top: 500px;
+    box-shadow: 10px, black;
+}
+input{
+    width:250px;
+    height:40px;
+    outline: none;
+    fill: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    text-decoration-color: white;
+    
+}
+::placeholder {
+    color: white;
+    font-size: 20px;
+  }
+
